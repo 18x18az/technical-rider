@@ -1,31 +1,93 @@
-\documentclass{article}
-\usepackage[margin=0.5in]{geometry}
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
 
-\title{18x18az\\Technical Rider}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage}
+\lhead{VRC Technical Rider}
+\rhead{18x18az}
+
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{5}
+
+\title{18x18az\\VRC Technical Rider}
 \author{v1.0.0-alpha.1}
 \date{Revised \today}
 % TODO: add logo and header
 \begin{document}
 \maketitle
-\begin{abstract}
-Thank you for hosting an event with us! In this document you will find information such as what we need from the venue as well as our pricing options.
-\end{abstract}
+%\begin{abstract}
+Thank you for considering hosting an event with us!
+In this document you will find information such as what we need from the venue as well as our pricing options.
+%\end{abstract}
 \tableofcontents
+\pagebreak
 \section{Pricing}
-Our base fee of \$200 includes field control for two (2) competition fields and one (1) skills field, and livestream and Tournament Manager (TM) operation.
-Bonus items, such as field LEDs, a third competition field, will cost extra.
 
+In summary, our pricing options can be found below:
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Item} & \textbf{Includes} & \textbf{Price} \\
+        \hline
+        & (2) Competition Fields &  \\
+        Base fee & (1) Skills Field & \$200 \\
+        & Livestream, TM Operation & \\
+        \hline
+        Third Comp. Field & Third Competition Field & +\$100 \\
+        \hline
+        Field Control LEDs & Field Control LEDs & +\$50 per field with LEDs \\
+        \hline
+        Pipe and Drape & 60? feet of pipe and drape & +\$150 \\
+        \hline
+    \end{tabular}
+\end{center}
+If you are looking for something else not already listed, please do not hesitate to contact us.
+
+\subsection{Base Fee}
+Our base fee of \$200 includes field control for two (2) competition fields, one (1) skills field livestream equipment and Tournament Manager (TM) operation.
+We have a projector, projector screen and speakers, though if your venue has a suitable alternative for Audio/Visual, please let us know as soon as possible.
+
+\subsection{Third Competition Field}
+For an additional \$100, we can support a third competition field.
+This will bring up the total fields to three (3) competition fields and one (1) skills field.
+
+\subsection{Field Control LEDs}
+For an additional \$50 per field, we will bring LEDs that will be mounted to the field perimeter and will react to field control.
+
+\subsection{Pipe and Drape}
+For an additional \$150, we will bring pipe and drape to the venue.
+Pipe and drape can be used to make an event look more professional!
+Let us know if you would like advice on how to best make use of pipe and drape.
+
+\section{Venue Physical Requirements}
+TODO: put diagrams here
+\subsection{Mission Control Tables}
+2 tables, 2 chairs
+\subsection{Power and Ethernet Access}
+\subsection{Internet Firewall}
+We will need the following websites to be unblocked on the day of setup and event:
+
+TODO: need to find what package my CSE 340 professor uses for listing grammar in the projects because i think it looks cool and we can use the same here
+\subsection{Crowd Control Barriers}
+Our cameras are pretty expensive so we want barriers around them
+
+\section{Equipment Transportation}
+It is plausible we will need help transporting items from our base in Chandler to the venue during the day of setup, especially if we are bringing pipe and drape.
+
+\section{Contact Information}
+TODO: is this section needed?
+\pagebreak
+\section{Document Changelog}
+\begin{center}
 \begin{tabular}{|c|c|c|}
     \hline
-    Feature & Includes & Price \\
+    \textbf{Date} & \textbf{Document Version} & \textbf{Description} \\
     \hline
-    Base fee & (2) Competition Fields, (1) Skills Field, Livestream, TM Operation & \$200 \\
-    \hline
-    Third Comp Field & brr & +\$100 \\
-    Pipe and Drape & 60? feet of pipe and drape & +\$150 \\
-    Field LEDs & Field Control LEDs & +\$50 per field with LEDs \\
+    brr & v1.0.0 & Initial Release \\
     \hline
 \end{tabular}
-\section{Venue Requirements}
-\section{Document Changelog}
+\end{center}
 \end{document}
