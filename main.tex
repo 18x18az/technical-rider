@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{fancyhdr}
+\usepackage{hyperref}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -8,87 +9,111 @@
 \lhead{VRC Technical Rider}
 \rhead{18x18az}
 
-\usepackage{draftwatermark}
-\SetWatermarkText{DRAFT}
-\SetWatermarkScale{5}
+%\usepackage{draftwatermark}
+%\SetWatermarkText{DRAFT}
+%\SetWatermarkScale{5}
 
 \title{18x18az\\VRC Technical Rider}
-\author{v1.0.0-alpha.1}
+\author{v1.0.0}
 \date{Revised \today}
-% TODO: add logo and header
+% TODO: add logo somewhere
+% make logo watermark? or is that too much
 \begin{document}
 \maketitle
-%\begin{abstract}
 Thank you for considering hosting an event with us!
 In this document you will find information such as what we need from the venue as well as our pricing options.
-%\end{abstract}
+If you have any questions or comments, please do not hesitate to contact us.
 \tableofcontents
 \pagebreak
-\section{Pricing}
+\section{Our Services}
+\subsection{Base Package}
+Our base package, costing \$200, includes:
+\begin{itemize}
+    \item Field control for two (2) competition fields
+    \item Field control for one (1) skills field
+    \item Livestream equipment and operation
+    \item Tournament Manager (TM) operation
+    \item Scoring tablets
+    \item Audiovisual equipment
+\end{itemize}
 
-In summary, our pricing options can be found below:
+\noindent We will livestream the event to our YouTube channel, located at \\\url{http://youtube.18x18az.org}.
+
+\subsection{Large Event Package}
+We can support field control for a third competition field and a second skills field for an additional \$100 fee.
+This will bring up the total number of supported fields to three (3) competition fields and two (2) skills fields.
+
+\subsection{Pipe and Drape}
+We can loan our set of pipe and drape (70 feet) for an additional \$150 fee.
+Additionally by requesting pipe and drape, you agree to arrange for the transportation of the pipe and drape to the venue.
+
+\section{Venue Requirements}
+If you have any questions about any of the following venue requirements, please do not hesitate to contact us for clarification.
+\subsection{Mission Control Setup}
+We will require two (2) rectangular tables and two (2) chairs at Mission Control.
+We ask that the tables are at least 30 inches deep and 60 inches wide.
+
+\subsection{Power and Ethernet Access}
+We will require two (2) power outlets at most 10 feet from Mission Control.
+We will also require access to an Ethernet outlet, ideally within the same room as Mission Control.
+Please contact us as soon as possible if either of the above is not possible.
+
+\subsection{Field Layout and Spacing}
+We will require six (6) feet of space between the competition fields and the audience for our camera setup.
+
+\subsection{Internet Firewall}
+We will require the following websites (along with all subdomains and ports) to be unblocked on the day of setup and event:
+
+\begin{centering}
+
+\begin{tabular}{|c|}
+    \hline
+    \url{robotevents.com} \\
+    \url{dwabtech.com} \\
+    \url{vexscores.com} \\
+    \url{roboticseducation.org}\\
+    \url{youtube.com}\\ 
+        \url{pretzel.rocks} \\
+        \url{spotify.com}\\
+        \url{18x18az.org} \\
+    \hline
+\end{tabular}
+
+\end{centering}
+\vspace{1em}
+
+\noindent Some of these websites are required for posting results to RobotEvents, while others are for facilitating the livestream.
+
+\subsection{Crowd Control Barriers}
+If available, we would like to use crowd control barriers (such as those you might find in a lunch line) to protect our camera equipment.
+
+\section{Equipment Transportation}
+It is plausible we will need help transporting equipment from our base in Chandler to the venue during the day of setup.
+As the event date approaches, we will be in contact regarding equipment transportation.
+
+\section{Pricing}
+A summary of our pricing options can be found below:
 \begin{center}
     \begin{tabular}{|c|c|c|}
         \hline
         \textbf{Item} & \textbf{Includes} & \textbf{Price} \\
         \hline
-                 & (2) Competition Fields   &  \\
-        Base fee & (1) Skills Field         & \$200 \\
+                 & Field Control for:    &  \\
+        Base Package & (2) Competition Fields, (1) Skills Field         & \$200 \\
                  & Livestream, TM Operation & \\
                  & Scoring Tablets          & \\
         \hline
-        Third Comp. Field & Third Competition Field & +\$100 \\
+        Large Event Package & Field Control for: & +\$100 \\
+        & third Competition Field, second Skills Field & \\
         \hline
-        Field Control LEDs & Field Control LEDs & +\$50 per field with LEDs \\
-        \hline
-        Pipe and Drape & 60? feet of pipe and drape & +\$150 \\
+        Pipe and Drape & 70 feet of pipe and drape & +\$150, \\
+                       & & transportation \\
         \hline
     \end{tabular}
 \end{center}
 If you are looking for something else not already listed, please do not hesitate to contact us.
 
-\subsection{Base Fee}
-Our base fee of \$200 includes field control for two (2) competition fields, one (1) skills field livestream equipment, Tournament Manager (TM) operation, and scoring tablets.
-We also have a projector, projector screen and speakers, though if your venue has a suitable alternative for Audio/Visual, please let us know as soon as possible.
-
-\subsection{Third Competition Field}
-For an additional \$100, we can support a third competition field.
-This will bring up the total fields to three (3) competition fields and one (1) skills field.
-
-\subsection{Field Control LEDs}
-For an additional \$50 per field, we will bring LEDs that will be mounted to the field perimeter and will react to field control.
-
-\subsection{Pipe and Drape}
-For an additional \$150, we will bring pipe and drape to the venue.
-Pipe and drape can be used to make an event look more professional!
-Let us know if you would like advice on how to best make use of pipe and drape.
-
-\section{Venue Physical Requirements}
-TODO: put diagrams here
-\subsection{Mission Control Tables}
-2 tables, 2 chairs
-\subsection{Power and Ethernet Access}
-\subsection{Internet Firewall}
-We will need the following websites to be unblocked on the day of setup and event:
-
-TODO: need to find what package my CSE 340 professor uses for listing grammar in the projects because i think it looks cool and we can use the same here
-\subsection{Crowd Control Barriers}
-Our cameras are pretty expensive so we want barriers around them
-
-\section{Equipment Transportation}
-It is plausible we will need help transporting items from our base in Chandler to the venue during the day of setup, especially if we are bringing pipe and drape.
-
 \section{Contact Information}
-TODO: is this section needed?
-\pagebreak
-\section{Document Changelog}
-\begin{center}
-\begin{tabular}{|c|c|c|}
-    \hline
-    \textbf{Date} & \textbf{Document Version} & \textbf{Description} \\
-    \hline
-    brr & v1.0.0 & Initial Release \\
-    \hline
-\end{tabular}
-\end{center}
+Please contact us at \href{mailto:contact@18x18az.org}{contact@18x18az.org}.
+% TODO: include emails
 \end{document}
